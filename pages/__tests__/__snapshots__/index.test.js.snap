@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Should rendered correctly 1`] = `
+<div
+  className="App"
+>
+  <Header />
+  <creditCard />
+</div>
+`;

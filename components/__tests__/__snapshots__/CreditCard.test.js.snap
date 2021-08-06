@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreditCard /> Should rendered correctly 1`] = `
+<Fragment>
+  <section
+    className="App-content"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="cardimgone"
+      >
+        <div
+          className="divtreecard flip"
+        >
+          <div
+            className="divsecond  flip-1"
+          >
+            <div
+              className="divprime  "
+            >
+              <img
+                alt="cardImg"
+                className="card-img "
+                src=""
+              />
+            </div>
+            <div
+              className="card-item__wrapper"
+            >
+              <div
+                className="card-text_top"
+              >
+                <img
+                  alt="card-chip"
+                  className="card-chip"
+                  src=""
+                />
+                <div
+                  className="card-imgmarca"
+                >
+                  <img
+                    alt="card-chip"
+                    className="img-marca"
+                    src=""
+                  />
+                </div>
+              </div>
+              <label
+                className="card-number"
+              >
+                **** **** **** ****
+              </label>
+              <Row
+                className="card-content col-md-12"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="card-content col-md-7"
+                >
+                  <Row
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <label
+                      class="col-md-12"
+                    >
+                      Card Holder
+                    </label>
+                    <label
+                      class="col-md-12"
+                      style={
+                        Object {
+                          "fontSize": "15px",
+                        }
+                      }
+                    />
+                  </Row>
+                </div>
+                <div
+                  className="card-content col-md-5"
+                >
+                  <Row
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <label
+                      class="col-md-12"
+                    >
+                      Expires
+                    </label>
+                    <label
+                      class="col-md-1"
+                      style={
+                        Object {
+                          "fontSize": "18px",
+                        }
+                      }
+                    >
+                      01
+                    </label>
+                    <label
+                      class="col-md-1"
+                      style={
+                        Object {
+                          "fontSize": "18px",
+                        }
+                      }
+                    >
+                      /
+                    </label>
+                    <label
+                      class="col-md-1"
+                      style={
+                        Object {
+                          "fontSize": "18px",
+                        }
+                      }
+                    >
+                      2021
+                    </label>
+                  </Row>
+                </div>
+              </Row>
+            </div>
+          </div>
+          <div
+            className="divsecond flip-2"
+          >
+            <div
+              className="divprime"
+            >
+              <img
+                alt="cardImg"
+                className="card-img "
+                src=""
+              />
+            </div>
+            <div
+              className="card-item__wrapper"
+            >
+              <Row
+                className="card-content col-md-12"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="card-content col-md-12"
+                >
+                  <div
+                    class="card-input"
+                  >
+                    <label
+                      class="card-input__label"
+                      for="cardCvv"
+                    >
+                      cvv
+                    </label>
+                    <input
+                      autocomplete="off"
+                      class="card-input__input"
+                      data-card-field={true}
+                      disabled="true"
+                      id="fields.cardCvv"
+                      input="changeCvv"
+                      maxlength="4"
+                      type="tel"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  className="card-content col-md-12"
+                >
+                  <div
+                    class="card-form__col -cvv"
+                  >
+                    <div
+                      class="card-input"
+                      style={
+                        Object {
+                          "width": "10em",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </Row>
+            </div>
+            <div
+              className="band_balck"
+            />
+            <div
+              className="card-imgmarca2"
+            >
+              <img
+                alt="card-chip"
+                className="img-marca"
+                src=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-3"
+      />
+      <div
+        className="col-md-6"
+      >
+        <Card
+          className="myCard"
+          tag="div"
+        >
+          <CardBody
+            tag="div"
+          >
+            <div
+              class="card-input col-md-12 marginBform"
+            >
+              <label
+                class="card-input__label"
+                for="cardNumber"
+                style={Object {}}
+              >
+                Card Number
+              </label>
+              <input
+                autocomplete="off"
+                class="__input"
+                data-card-field={true}
+                id="cardNumber"
+                maxlength="16"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />
+            </div>
+            <div
+              class="card-input col-md-12 marginBform"
+            >
+              <label
+                class="card-input__label"
+                for="cardName"
+                style={Object {}}
+              >
+                Card Name
+              </label>
+              <input
+                autocomplete="off"
+                class="__input"
+                data-card-field={true}
+                id="cardName"
+                maxlength="34"
+                onChange={[Function]}
+                type=""
+                value=""
+              />
+            </div>
+            <div
+              class="card-input col-md-4 marginBform"
+            >
+              <label
+                class="card-input__label"
+                for="expirateMonth"
+                style={
+                  Object {
+                    "marginBottom": "",
+                  }
+                }
+              >
+                Expiration Date
+              </label>
+              <select
+                change=""
+                class="__input _select"
+                data-card-field={true}
+                id="expirateMonth"
+                onChange={[Function]}
+                style={Object {}}
+                value="1"
+              >
+                <option
+                  value={1}
+                >
+                  01
+                </option>
+                <option
+                  value={2}
+                >
+                  02
+                </option>
+                <option
+                  value={3}
+                >
+                  03
+                </option>
+                <option
+                  value={4}
+                >
+                  04
+                </option>
+                <option
+                  value={5}
+                >
+                  05
+                </option>
+                <option
+                  value={6}
+                >
+                  06
+                </option>
+                <option
+                  value={7}
+                >
+                  07
+                </option>
+                <option
+                  value={8}
+                >
+                  08
+                </option>
+                <option
+                  value={9}
+                >
+                  09
+                </option>
+                <option
+                  value={10}
+                >
+                  10
+                </option>
+                <option
+                  value={11}
+                >
+                  11
+                </option>
+                <option
+                  value={12}
+                >
+                  12
+                </option>
+              </select>
+            </div>
+            <div
+              class="card-input col-md-4 marginBform"
+            >
+              <label
+                class="card-input__label"
+                for="yeardCard"
+                style={
+                  Object {
+                    "marginBottom": "4em",
+                  }
+                }
+              />
+              <select
+                change=""
+                class="__input _select"
+                data-card-field={true}
+                id="yeardCard"
+                onChange={[Function]}
+                style={Object {}}
+                value="2021"
+              >
+                <option
+                  value={2021}
+                >
+                  2021
+                </option>
+                <option
+                  value={2022}
+                >
+                  2022
+                </option>
+                <option
+                  value={2023}
+                >
+                  2023
+                </option>
+                <option
+                  value={2024}
+                >
+                  2024
+                </option>
+                <option
+                  value={2025}
+                >
+                  2025
+                </option>
+                <option
+                  value={2026}
+                >
+                  2026
+                </option>
+                <option
+                  value={2027}
+                >
+                  2027
+                </option>
+                <option
+                  value={2028}
+                >
+                  2028
+                </option>
+                <option
+                  value={2029}
+                >
+                  2029
+                </option>
+                <option
+                  value={2030}
+                >
+                  2030
+                </option>
+                <option
+                  value={2031}
+                >
+                  2031
+                </option>
+                <option
+                  value={2032}
+                >
+                  2032
+                </option>
+              </select>
+            </div>
+            <div
+              class="card-input col-md-4 marginBform"
+            >
+              <label
+                class="card-input__label"
+                for="cvv"
+                style={Object {}}
+              >
+                CVV
+              </label>
+              <input
+                autocomplete="off"
+                class="__input"
+                data-card-field={true}
+                id="cvv"
+                maxlength="4"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />
+            </div>
+            <button
+              class="__button"
+              onClick={[Function]}
+            >
+              Submit
+            </button>
+          </CardBody>
+        </Card>
+      </div>
+      <div
+        className="col-md-3"
+      />
+    </div>
+     
+  </section>
+   
+</Fragment>
+`;
