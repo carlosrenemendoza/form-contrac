@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "DEBUG=pruebaclip NODE_ENV=develop node server.js",
-    "devw": "set PORT=4900 && react-scripts start",
+    "devw": "set PORT=4900 && node server.js",
     "build": "next build",
     "start": "cross-env NODE_ENV=production node server.js",
     "test": "jest --coverage"
