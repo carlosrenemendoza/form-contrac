@@ -44,11 +44,11 @@ class creditCard extends Component {
     super(props);
     this.state = {
       infocard: {
-        nameClient: "Carlos Rene Mendoza Perez",
-        mail: "rene.mendoza@dimmer.com",
-        numberPhone: "7713241142",
-        location: "Lomas de Vista Hermos, Pachuca de Soto Hidalgo",
-        curp: "HHOKÑJSAÑKLJDIO234",
+        nameClient: "",
+        mail: "",
+        numberPhone: "",
+        location: "",
+        curp: "",
         // expiration
       },
       formCardCred: [
